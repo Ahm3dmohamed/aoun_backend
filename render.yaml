@@ -9,3 +9,11 @@ services:
         value: production
       - key: APP_DEBUG
         value: false
+      - key: APP_KEY
+        value: base64:2QdZT+qzQ9H9Fm+1zZ7B2wLo0vT2M4XkhtxqMfL+9T4=
+      - key: APP_URL
+        value: https://your-service.onrender.com
+      - key: DB_CONNECTION
+        value: sqlite
+      - key: DB_DATABASE
+        value: /opt/render/project/src/database/database.sqlite
